@@ -1,0 +1,38 @@
+[FluoriteCrystal]
+mesh0=%crystal1.mesh;0 2 0;2 5 2;1 0 0 0;
+billboard0=crystalGlowMat;0 4.2 0;20 35
+light0=0 0 0;0 0.39502 0.39502 1
+[Structure1]
+mesh0=%basicring.mesh;0 100 0;5 5 5;1 0 0 0;rockMat3;
+mesh1=%basiccylinder.mesh;100 0 0;0.7 5 1;1 0 0 0;rockMat2;
+mesh2=%basiccylinder.mesh;-100 0 0;0.7 5 1;1 0 0 0;rockMat2;
+mesh3=%basiccylinder.mesh;0 0 100;1 5 0.7;1 0 0 0;rockMat2;
+mesh4=%basiccylinder.mesh;0 0 -100;1 5 0.7;1 0 0 0;rockMat2;
+[Structure2]
+mesh0=BasicSphere.mesh;0 -40 0;2 2 2;1 0 0 0;rockMat4;
+mesh1=%BasicRing.mesh;0 -20 0;5 20 5;1 0 0 0;rockMat6;
+coll0=ws;0 0 0;40;
+billboard0=crystalGlowMat;0 0 0;140 140
+light0=0 0 0;0 1 1 1
+[Structure3]
+mesh0=%basiccube.mesh;0 50 0;5 0.2 5;1 0 0 0;rockMat3;
+mesh1=%basiccylinder.mesh;0 0 0;1 2.5 1;1 0 0 0;rockMat2;
+mesh2=%basiccube.mesh;0 18.876 -140.102;5 0.2 5;0.976597 -0.215076 0 0;rockMat2;
+[ElephantSkull]
+mesh0=%elephantSkull.mesh;0 -10 0;0.4 0.4 0.4;0.980168 -0.19817 0 0;ESkullMat;
+[ElephantSpine]
+mesh0=%elephantSpine.mesh;0 28 0;0.6 0.4 0.5;-0.0109955 0 0 0.999941;ESpineMat;
+[CollisionBox]
+coll0=b;0 0 0;30 30 30;
+[Waterfall]
+mesh0=waterfall1.mesh;0 0 0;1 1 1;1 0 0 0;
+[WaterSplash]
+sound=Waterfall.mp3
+particle0=WaterfallSmoke;0 34.8 0;1 1 1;1 0 0 0
+[LargeAura]
+particle0=LargeAura;0 0 0;1 1 1;1 0 0 0
+particle1=LargeAura;0 0 0;1 1 1;1 0 0 0
+[Bonfire]
+particle0=Bonfire;0 0 0;1 1 1;1 0 0 0
+particle1=BonfireSpark;0 0 0;1 1 1;1 0 0 0
+light0=0 16 0;1 0.54902 0 1

@@ -1,0 +1,7 @@
+[LightRain]
+ps=Weather/Rain
+offset=0 1 0
+rate=600
+skytop=0.590741 0.590741 0.590741 1
+skybot=0.687037 0.687037 0.687037 1
+clouds=0.687037 0.687037 0.687037 1

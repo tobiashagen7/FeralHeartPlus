@@ -1,0 +1,137 @@
+material rockMat
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture rockTex.jpg
+			}
+		}
+	}
+}
+material rockMat1
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture rockTex1.jpg
+			}
+		}
+	}
+}
+material rockMat2
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture rockTex2.jpg
+			}
+		}
+	}
+}
+material rockMat3
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture rockTex3.jpg
+			}
+		}
+	}
+}
+material rockMat4
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			emissive 1 1 1
+			texture_unit
+			{
+				texture crystalTex.jpg
+				wave_xform scroll_x sawtooth 1 .1 0 1
+			}
+		}
+	}
+}
+material rockMat5
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture rockTex5.jpg
+			}
+		}
+	}
+}
+material rockMat6
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture rockTex6.jpg
+			}
+		}
+	}
+}

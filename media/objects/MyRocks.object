@@ -1,0 +1,17 @@
+[SmallRock]
+mesh0=%rock1.mesh;0 0 0;1 1 1;0.66315 -0.559216 -0.320719 0.380327;rockMat3;
+mesh1=%rock1.mesh;0 -10.276 0;1 1 1;0.690309 0.580265 0.330815 0.278079;rockMat3;
+[Rock]
+mesh0=%rock.mesh;0 -3.25 0;1.901 1.773 1.728;1 0 0 0;
+[Ledge]
+mesh0=%cliff.mesh;0 0 0;4 4 4;1 0 0 0;
+[Plateau]
+mesh0=%plateau1.mesh;0 0 0;5 5 5;1 0 0 0;
+[Mount]
+mesh0=%mount1.mesh;0 0 0;10 10 10;1 0 0 0;rockMat1;
+[Mount2]
+mesh0=%mount4.mesh;0 0 0;10 10 10;1 0 0 0;rockMat1;
+[Cave]
+mesh0=%cave1.mesh;0 0 0;7 7 7;1 0 0 0;
+[Den]
+mesh0=%den.mesh;0 0 0;7 7 7;1 0 0 0;rockMat1;

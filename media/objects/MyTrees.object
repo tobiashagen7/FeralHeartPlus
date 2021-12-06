@@ -1,0 +1,31 @@
+[AcaciaTree]
+mesh0=acaciaTree.mesh;0 0 0;0.7 0.7 0.7;1 0 0 0;
+coll0=b;1.03003 -1.5 0.530029;17.75 33 16;
+[AcaciaTree Fall]
+mesh0=acaciaTree.mesh;0 0 0;0.7 0.7 0.7;1 0 0 0;acaciaBarkMat;acaciaLeafYellowMat;
+coll0=b;1.03003 -1.5 0.530029;17.75 33 16;
+particle0=FL1;0 80 10;4 1 4;1 0 0 0
+[AcaciaTreeStandable]
+mesh0=acaciaTree.mesh;0 0 0;1 1 1;1 0 0 0;
+mesh1=acaciaTree.mesh;-22.45 74.6 -1.15;0.6 0.9 0.6;-0.140901 0 -0.990024 0;
+coll0=b;-1.87012 -7.6 -0.959961;30 42 20;
+coll1=b;2.32 25.01 3;20 20 20;
+coll2=b;-9.3 34 20.2;20 40 20;
+[FirTree]
+mesh0=firTree.mesh;0 0 0;1.5 2.5 1.5;1 0 0 0;FirMat/Bark;FirMat/Leaf;
+coll0=b;0 0 0;20 260 20;
+[FirTree Winter]
+mesh0=firTree.mesh;0 0 0;1.5 2.5 1.5;1 0 0 0;FirMat/Bark;FirMat/Snow;
+coll0=b;0 0 0;20 260 20;
+[OakTree]
+mesh0=oakTree.mesh;0 0 0;0.5 0.5 0.5;1 0 0 0;
+coll0=b;0 -10 0;40 62 40;
+[OakTree Fall]
+mesh0=oakTree.mesh;0 0 0;0.5 0.5 0.5;1 0 0 0;OakMat/Bark;OakMat/LeafYellow;
+coll0=b;0 -10 0;40 62 40;
+particle0=FL1;0 70 0;7 1 7;1 0 0 0
+[OakTree Winter]
+mesh0=oakTree.mesh;0 0 0;0.5 0.5 0.5;1 0 0 0;OakMat/Bark;OakMat/Snow;
+coll0=b;0 -10 0;40 62 40;
+[PalmTree]
+mesh0=%Palm1.mesh;0 0 0;2 2 2;1 0 0 0;

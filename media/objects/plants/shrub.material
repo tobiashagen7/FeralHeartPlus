@@ -1,0 +1,107 @@
+material shrubMat
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			diffuse 0.05 0.05 0.05 1
+			cull_hardware none
+			cull_software none
+
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture shrubLeaves.png
+			}
+		}
+	}
+}
+material shrubSnowMat
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			diffuse 0.05 0.05 0.05 1
+			cull_hardware none
+			cull_software none
+
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture shrubSnow.png
+			}
+		}
+	}
+}
+material shrubFlowerMat
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture shrubFlower.png
+			}
+		}
+	}
+}
+material shrubFlowerSnowMat
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture shrubFlowerSnow.png
+				wave_xform rotate sine 1 .1 0 .02
+			}
+		}
+	}
+}
+material shrubYellowMat
+{
+	transparency_casts_shadows off
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			ambient 0.75 0.75 0.75 1
+			diffuse 0.05 0.05 0.05 1
+			cull_hardware none
+			cull_software none
+
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture shrubLeavesYellow.png
+			}
+		}
+	}
+}
